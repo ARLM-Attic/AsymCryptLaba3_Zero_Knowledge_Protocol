@@ -45,11 +45,6 @@ namespace llll.Controllers
                 count++;
 
             }
-          
-            
-          
-    
-
                 BigInteger p = gcd(t+root,n);
                 BigInteger q = n/p;
                 BigInteger _n = p*q;
